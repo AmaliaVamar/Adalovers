@@ -1,0 +1,80 @@
+/*Parte de iana*/
+
+*{
+  box-sizing: border-box;
+}
+/* la clase .icons-personal hay que quitarla del código cuando añadamos mi código*/
+.icons-personal{
+    width: 20px;
+  }
+
+
+.footer{
+  width:100%;
+  background-color:#1e392a;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+}
+
+.adalab-contact{
+  font-size: 12px;
+  color: #e9c893;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.adalab-contact h2{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.adress{
+  display: flex;
+  padding-left: 20px;
+  font-size: 12px;
+  color: #e9c893;
+  justify-content: space-between;
+}
+
+.footer-icons{
+  padding-right: 20px;
+}
+
+.date{
+background-color: #01180a;
+text-align: center;
+font-size: 20px;
+font-family: 'Dancing Script', cursive;
+color: #e9c893;
+width: 100%;
+
+}
+.date p{
+  margin: 0;
+}
+
+@media (min-width:780px){
+  .adalab-contact{
+    font-size: 14px;
+  }
+  .adress{
+    font-size:16px;
+  }
+  .date{
+    font-size:20px;
+  }
+}
+
+/*@media (min-width 1024px) {*/
+    /*.adalab-contact{*/
+      /*font-size: 14px;*/
+    /*}*/
+    /*.adress{*/
+      /*font-size: 20px;*/
+    /*}*/
+    /*.date{*/
+      /*font-size: 20px*/
+    /*}*/
+/*}*/
